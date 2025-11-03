@@ -1,0 +1,9 @@
+.cardHolder {
+  width: 110px;
+  height: 150px;
+  position: relative;
+  border-radius: 8px;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border: 1px solid white;
+  top: 30px;
+}

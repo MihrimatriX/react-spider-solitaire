@@ -1,0 +1,30 @@
+{
+  "short_name": "Spider Solitaire",
+  "name": "Spider Solitaire - Free Online Card Game",
+  "description": "Play Spider Solitaire online for free! Classic card game with beautiful graphics, timer, hints, and undo features.",
+  "icons": [
+    {
+      "src": "soliter.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "soliter.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "soliter.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2d5a27",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "categories": ["games", "entertainment", "puzzle"],
+  "lang": "en",
+  "dir": "ltr"
+}

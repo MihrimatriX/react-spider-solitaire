@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  spider-solitaire:
+    build: .
+    ports:
+      - "3000:3000"
+    container_name: spider-solitaire-app
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production 
