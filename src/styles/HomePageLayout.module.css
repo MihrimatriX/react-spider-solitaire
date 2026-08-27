@@ -1,0 +1,33 @@
+.pageLayout {
+  width: 100%;
+  height: 100vh;
+  background-color: seagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.middleBox {
+  box-sizing: border-box;
+  width: 500px;
+  height: 600px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 20px;
+  border: 4px solid seagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.mainHeader {
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  color: lightgoldenrodyellow;
+  font-weight: 700;
+}

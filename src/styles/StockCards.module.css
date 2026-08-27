@@ -1,0 +1,55 @@
+.stockDeck {
+  width: 110px;
+  height: 150px;
+  margin-left: 100px;
+  position: absolute;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url("../assets/game/cardBack.png");
+  cursor: pointer;
+}
+
+.stockDeck[data-index="0"] {
+  left: 0px;
+}
+.stockDeck[data-index="1"] {
+  left: 30px;
+}
+.stockDeck[data-index="2"] {
+  left: 60px;
+}
+.stockDeck[data-index="3"] {
+  left: 90px;
+}
+.stockDeck[data-index="4"] {
+  left: 120px;
+}
+.stockDeck[data-index="5"] {
+  left: 150px;
+}
+.stockDeck[data-index="6"] {
+  left: 180px;
+}
+.stockDeck[data-index="7"] {
+  left: 210px;
+}
+.stockDeck[data-index="8"] {
+  left: 240px;
+}
+.stockDeck[data-index="9"] {
+  left: 270px;
+}
+
+.stockDeck[data-hint="deal"] {
+  box-shadow: 0 0 0 3px #ffd54f, 0 0 18px rgba(255, 213, 79, 0.6);
+  animation: hintPulse 1.1s ease-in-out infinite;
+}
+
+.stockDeck.blocked {
+  cursor: not-allowed;
+  filter: grayscale(0.25) brightness(0.92);
+}
+
+.stockDeck.shake {
+  animation: stockShake 0.4s ease;
+}

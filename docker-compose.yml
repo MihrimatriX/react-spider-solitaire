@@ -1,0 +1,18 @@
+services:
+  spider-solitaire:
+    build:
+      context: .
+      args:
+        VITE_SITE_URL: ${VITE_SITE_URL:-}
+    ports:
+      - "4141:3000"
+    container_name: afu-spider-solitaire
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production 
+    networks:
+      - proxy-network
+
+networks:
+  proxy-network:
+    external: true

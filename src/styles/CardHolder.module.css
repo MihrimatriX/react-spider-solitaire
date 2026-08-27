@@ -1,0 +1,24 @@
+.cardHolder {
+  width: 110px;
+  height: 150px;
+  position: relative;
+  border-radius: 8px;
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border: 1px solid white;
+  top: 30px;
+}
+
+.cardHolder[data-drop-hover="true"] {
+  box-shadow: 0 0 0 3px #fff, 0 0 16px rgba(255, 255, 255, 0.45);
+}
+
+.cardHolder[data-hint="target"],
+.cardHolder[data-hint="source"] {
+  box-shadow: 0 0 0 3px #ffd54f, 0 0 18px rgba(255, 213, 79, 0.55);
+  animation: hintPulse 1.1s ease-in-out infinite;
+}
+
+/* Tall drop strip; keep z-index auto so adjacent cards stay grabbable */
+.emptyColumn {
+  min-height: 420px;
+}
